@@ -85,8 +85,9 @@ header .logo {
   padding: 10px 35px 10px 15px;
 }
 
-input {
+.inputForm input {
   font-size: 15px;
+  width: 460px;
 }
 
 input,
