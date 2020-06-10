@@ -1,0 +1,168 @@
+:root {
+  background-color: #f5f6f7;
+  --white: #ffffff;
+  --naver-logo-green: #00c850;
+  --login-green: #03c75a;
+  --grey-light: #ceced3;
+  --grey-line: #cccccc;
+  --grey-font: #8e8e8e;
+  --grey-dark: #666666;
+  --black-font: #333333;
+}
+
+select {
+  font-family: "Dotum", sans-serif;
+  border: solid 1px var(--grey-line);
+  width: 95px;
+  height: 30px;
+}
+
+body {
+  height: 937px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Dotum", sans-serif;
+}
+.naver {
+  color: var(--naver-logo-green);
+  font-weight: bolder;
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 768px;
+}
+
+header form {
+  display: flex;
+  align-self: flex-end;
+}
+
+header .logo {
+  display: flex;
+  align-self: center;
+  font-size: 70px;
+  margin: 0px 0px 35px;
+}
+
+.container {
+  display: flex;
+  height: 619px;
+  margin: 0 auto;
+  padding: 0 0 15px;
+}
+
+.content {
+  width: 460px;
+}
+
+.loginForm {
+  display: flex;
+  flex-flow: column wrap;
+  height: 276px;
+}
+.loginForm button {
+  height: 61px;
+  border: none;
+  background-color: var(--login-green);
+  font-size: 20px;
+  color: var(--white);
+  margin: 16px 0px 14px;
+}
+
+.inputForm {
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  border: 1px solid #dadada;
+  width: 408px;
+  height: 29px;
+  margin-bottom: 14px;
+  padding: 10px 35px 10px 15px;
+}
+
+input {
+  font-size: 15px;
+}
+
+input,
+textarea:focus {
+  outline: none;
+  border: none;
+}
+
+.loginCheckLine {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--grey-dark);
+}
+.loginCheckBox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black-font);
+}
+
+.onceLogin {
+  text-decoration: underline;
+}
+
+.findInfo {
+  border-top: solid 1px #e4e4e5;
+  color: var(--grey-font);
+  padding: 20px 0 0 0;
+}
+
+.banner {
+  margin: 47px 0px 15px;
+  border: solid 0.1px #dce6ee;
+  background-color: #e2edf4;
+}
+
+footer {
+  display: flex;
+  flex-flow: column wrap;
+  color: var(--black-font);
+  padding: 0 0 15px;
+}
+footer .lastLine {
+  font-family: "Verdana", sans-serif;
+  margin-top: 3px;
+  font-size: 10.5px;
+  padding: 0 5px;
+}
+footer .naver {
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bar {
+  color: var(--grey-line);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0 2px;
+
+  display: flex;
+  align-items: center;
+}

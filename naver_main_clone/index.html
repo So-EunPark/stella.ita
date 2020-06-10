@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>네이버 : 로그인</title>
+    <script
+      src="https://kit.fontawesome.com/f7ee405e11.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 타이틀 아이콘-->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 헤더 -->
+    <header>
+      <form>
+        <select name="language">
+          <option value="none korean" selected>한국어</option>
+          <option value="english">English</option>
+          <option value="chinese">中文(简体)</option>
+          <option value="spanish">中文(台灣)</option>
+        </select>
+      </form>
+      <h1 class="naver logo">NAVER</h1>
+    </header>
+    <!-- container 중간 내용-->
+    <div class="container">
+      <div class="content">
+        <!-- login section -->
+        <div class="loginForm">
+          <div class="inputForm">
+            <input type="text" class="id" />
+          </div>
+          <div class="inputForm">
+            <input type="password" name="" id="" />
+          </div>
+          <button type="submit">로그인</button>
+          <!-- 로그인 상태 체크 라인 -->
+          <div class="loginCheckLine">
+            <div class="loginCheckBox">
+              <input type="checkbox" name="" id="" />
+              <span>로그인 상태 유지</span>
+            </div>
+            <div class="pcCheck">
+              <span class="ipCheck">IP보안 </span>
+              <span class="bold">OFF </span>
+              <span class="bar">| </span>
+              <span class="onceLogin">일회용 로그인</span>
+              <i class="fas fa-question-circle"></i>
+            </div>
+          </div>
+        </div>
+        <!-- 아이디, 비밀번호찾기 라인 -->
+        <div class="findInfo">
+          <ul>
+            <li>아이디 찾기</li>
+            <span class="bar">|</span>
+            <li>비밀번호 찾기</li>
+            <span class="bar">|</span>
+            <li>회원가입</li>
+          </ul>
+        </div>
+        <!-- 배너 사진 -->
+        <div class="banner">
+          <img src="./banner.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <ul>
+        <li>이용약관</li>
+        <span class="bar"> | </span>
+        <li class="bold">개인정보처리방침</li>
+        <span class="bar"> | </span>
+        <li>책임의 한계와 법적고지</li>
+        <span class="bar"> | </span>
+        <li>회원정보 고객센터</li>
+      </ul>
+      <ul class="lastLine">
+        <li class="naver">NAVER</li>
+        <li>Copyright</li>
+        <li>ⓒ</li>
+        <li class="bold">NAVER Corp.</li>
+        <li>All Rights Reserved.</li>
+      </ul>
+    </footer>
+  </body>
+</html>
